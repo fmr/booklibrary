@@ -1,5 +1,12 @@
 package com.myob.learning.booklibrary
 
+import org.springframework.boot.SpringApplication
+import org.springframework.boot.autoconfigure.SpringBootApplication
+
+@SpringBootApplication
+class App
+
 fun main(args: Array<String>) {
-  println("Hello Kotlin!")
+  SpringApplication.run(App::class.java, *args)
 }
+
