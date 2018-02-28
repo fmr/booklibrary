@@ -1,0 +1,11 @@
+.idea
+.project
+*.iml
+.gradle
+.DS_Store
+/target
+out
+*.orig
+logs
+docker_build
+
